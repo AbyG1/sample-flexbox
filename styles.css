@@ -5,9 +5,25 @@ body{
 nav{
     background-color:#0C134F;
     height: 70px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
 }
 nav > img{
     height:70px;
     width: auto;
     margin-left:10px;
+}
+
+.navlink > a{
+    color:black;
+    text-decoration: none;
+    background-color:#19A7CE;
+    padding:8px 15px;
+    border-radius:25px;
+    font-size:14px;
+    
+    
+    
+    
 }
