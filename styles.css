@@ -1,0 +1,13 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+nav{
+    background-color:#0C134F;
+    height: 70px;
+}
+nav > img{
+    height:70px;
+    width: auto;
+    margin-left:10px;
+}
