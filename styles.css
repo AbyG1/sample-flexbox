@@ -1,7 +1,13 @@
-body{
+*{
     margin:0px;
     padding:0px;
+    font-family: 'Poppins', sans-serif;
 }
+
+
+
+
+
 nav{
     background-color:#0C134F;
     height: 70px;
@@ -22,8 +28,46 @@ nav > img{
     padding:8px 15px;
     border-radius:25px;
     font-size:14px;
+    }
+
+    main > img{
+        height:200px;
+        width:auto;
+    }
     
+    main{
+        background-color:#19A7CE;
+        min-height:350px;
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        padding:20px;
+    }
+     
+    main > .left > .head{
     
-    
-    
-}
+        margin-top:10px;
+
+    }
+
+    .left > .head > h1 {
+        margin-bottom: 2px;
+        
+    }
+
+    main > .left > .head > p > span{
+        color:#051bdd;
+    }
+     
+    main .logo{
+        width: 100px;
+        display: flex;
+        justify-content:space-between;
+        margin-top: 10px;;
+    }
+
+
+
+    main div img{
+        height:25px;
+    }
